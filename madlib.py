@@ -1,19 +1,20 @@
 import sys
 import os
 import time
-
+# When user makes wrong selection, add a function to return to title - 
+# screen.
 
 
 # Welcome to Mad Lib! Banner
-print('Welcome to Mad Lib!')
+print('Welcome to Mad Libs! Select your story!')
 time.sleep(2)
-os.system('cls||clear')
+print('')
+print(''' [1] Sam
+ [2] High School''')
 
 # Mad lib Title Selection
-title = int(input(print(f"""
-            [{1}] A Monkey Named Sam
-            [{2}] Highschool""")))
 
+title = int(input())
 
 sam = 1
 highschool = 2
