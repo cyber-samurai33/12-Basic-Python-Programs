@@ -6,7 +6,7 @@ class Highschool:
     verb = str(input("Verb: "))
     adjective = str(input("Adjective: "))
     adverb = str(input("Adverb: "))
-    print('\t\t\t\t\t High School\n')
+    print('\t\t\t\t\t  High School\n')
     print(f'''\tDuring my sophomore year of high school,we were doing silent work and my history {adjective}\n 
     \t said that we could listen to music but if it was too loud he would “{verb} our {noun}.”\n 
     \t so I’m doing my work quietly with my music on low,and this obnoxious kid sitting next to me had his\n 
