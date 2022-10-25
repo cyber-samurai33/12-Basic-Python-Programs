@@ -3,6 +3,8 @@ import os
 import time
 from keyboard import press
 # Create a while loop to force user to select or go back to title.
+# Getting a traceback error when hitting enter. 
+
 
 # Welcome to Mad Lib! Banner
 print('Welcome to Mad Libs! Select your story!')
