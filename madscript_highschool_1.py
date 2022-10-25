@@ -1,4 +1,4 @@
-
+import os
 
 class Highschool:
     
@@ -6,6 +6,7 @@ class Highschool:
     verb = str(input("Verb: "))
     adjective = str(input("Adjective: "))
     adverb = str(input("Adverb: "))
+    os.system("clear||cls")
     print('\t\t\t\t\t  High School\n')
     print(f'''\tDuring my sophomore year of high school,we were doing silent work and my history {adjective}\n 
     \t said that we could listen to music but if it was too loud he would “{verb} our {noun}.”\n 
