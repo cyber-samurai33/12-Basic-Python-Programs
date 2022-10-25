@@ -4,7 +4,7 @@ import time
 from keyboard import press
 # Create a while loop to force user to select or go back to title.
 # Getting a traceback error when hitting enter. 
-
+# ValueError: invalid literal for int() with base 10: ''
 
 # Welcome to Mad Lib! Banner
 print('Welcome to Mad Libs! Select your story!')
@@ -17,19 +17,13 @@ print(''' [1] Sam
 
 title = int(input("> "))
 
-while title == press:
-   pass
-   if title == 1:
-      import madscript_sam
-   elif title == 2:
-      import madscript_highschool
 
-if title == 1: 
-   import madscript_sam
-elif title == 2:
-   import madscript_highschool
-else: 
-   import madlib
+
+
+
+   
+   
+   
 
 
 
