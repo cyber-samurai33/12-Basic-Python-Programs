@@ -1,3 +1,3 @@
 import madscript_sam
-import madscript_highschool_1
+import madscript_highschool
 

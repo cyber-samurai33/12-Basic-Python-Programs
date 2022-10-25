@@ -1,6 +1,6 @@
 import os
 
-class Highschool:
+class HighSchool:
     
     noun = str(input("Noun: "))
     verb = str(input("Verb: "))
