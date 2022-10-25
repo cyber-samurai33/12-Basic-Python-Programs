@@ -1,6 +1,6 @@
 # 🐍 12-Basic-Python-Programs 🐍
 
-☕  The code in here is made from my own creation taking the fundamental theory and applying it to make these mini programs. 
+☕  The code in this directory is made from my own creation, taking the fundamental theory and applying it to make these mini programs. 
 
 Over time I plan to enhance them by using intermediate and advanced theory to continue progressing.
 
