@@ -2,7 +2,6 @@
 import sys
 import os
 import time
-import keyboard
 # Create a while loop to force user to select or go back to title.
 # Getting a traceback error when hitting enter. 
 
@@ -17,23 +16,27 @@ print(''' [1] Sam
 # Mad lib Title Selection
 
 title = int(input(' > '))
+os.system('clear||cls')
 
-# Disable Enter key so program does not give ValueError: invalid literal for in()
+
 
 def disable_key():
    while True:
       if title == 1:
          import madscript_sam
+         break
       elif title == 2:
          import madscript_highschool
+         break
       elif title > 2:
          import madlib
-      else:
-         break
-   
-disable_key()
-      
-   
+disable_key()          
+
+
+
+
+
+ 
 
 
 
