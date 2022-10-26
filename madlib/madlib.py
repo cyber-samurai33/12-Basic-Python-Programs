@@ -18,6 +18,10 @@ print(''' [1] Sam
 title = int(input(' > '))
 os.system('clear||cls')
 
+def repeat_script():
+   while True:
+      import madlib
+
 
 
 def menu_script():
@@ -29,9 +33,9 @@ def menu_script():
          import madscript_highschool
          break
       elif title > 2:
-         import madlib
+         repeat_script()
+         
 menu_script()          
-
 
 
 
