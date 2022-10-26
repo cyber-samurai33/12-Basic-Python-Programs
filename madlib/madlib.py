@@ -20,7 +20,7 @@ os.system('clear||cls')
 
 
 
-def disable_key():
+def menu_script():
    while True:
       if title == 1:
          import madlib.madscript_sam as madscript_sam
@@ -30,7 +30,7 @@ def disable_key():
          break
       elif title > 2:
          import madlib
-disable_key()          
+menu_script()          
 
 
 
