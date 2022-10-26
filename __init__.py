@@ -1,3 +1,0 @@
-import madscript_sam
-import madscript_highschool
-

@@ -23,10 +23,10 @@ os.system('clear||cls')
 def disable_key():
    while True:
       if title == 1:
-         import madscript_sam
+         import madlib.madscript_sam as madscript_sam
          break
       elif title == 2:
-         import madscript_highschool
+         import madlib.madscript_highschool as madscript_highschool
          break
       elif title > 2:
          import madlib
