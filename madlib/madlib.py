@@ -23,10 +23,10 @@ os.system('clear||cls')
 def menu_script():
    while True:
       if title == 1:
-         import madlib.madscript_sam as madscript_sam
+         import madscript_sam
          break
       elif title == 2:
-         import madlib.madscript_highschool as madscript_highschool
+         import madscript_highschool
          break
       elif title > 2:
          import madlib
