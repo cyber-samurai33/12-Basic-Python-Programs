@@ -16,26 +16,26 @@ print(''' [1] Sam
 
 # Mad lib Title Selection
 
-title = int(input("> "))
+title = int(input(' > '))
 
 # Disable Enter key so program does not give ValueError: invalid literal for in()
-def any_key():
-   key="Return"   
-   keyboard.block_key(key)
 
-# Loop function to return user to main menu if selecting wrong option.
-
-def return_title():
+def disable_key():
    while True:
-      if title > 2:
-         continue
-
-
-
-
+      if title == 1:
+         import madscript_sam
+      elif title == 2:
+         import madscript_highschool
+      elif title > 2:
+         import madlib
+      else:
+         break
    
+disable_key()
+      
    
-   
+
+
 
 
 
