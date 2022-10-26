@@ -1,10 +1,11 @@
+
 import sys
 import os
 import time
-from keyboard import press
+import keyboard
 # Create a while loop to force user to select or go back to title.
 # Getting a traceback error when hitting enter. 
-# ValueError: invalid literal for int() with base 10: ''
+
 
 # Welcome to Mad Lib! Banner
 print('Welcome to Mad Libs! Select your story!')
@@ -17,6 +18,17 @@ print(''' [1] Sam
 
 title = int(input("> "))
 
+# Disable Enter key so program does not give ValueError: invalid literal for in()
+def any_key():
+   key="Return"   
+   keyboard.block_key(key)
+
+# Loop function to return user to main menu if selecting wrong option.
+
+def return_title():
+   while True:
+      if title > 2:
+         continue
 
 
 
