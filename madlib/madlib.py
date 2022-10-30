@@ -35,8 +35,8 @@ try:
          import madlib
          break
 except: 
-   import madlib
-   os.system("clear||cls")
+    import madlib
+    os.system("clear||cls")
    
 
       
