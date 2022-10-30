@@ -16,9 +16,7 @@ print('[2] High School')
 # Mad lib Title Selection
 
 try:
-   print('')
-   print('Enter to [exit]')
-   print('')
+ 
    title = int(input(' > '))
    while True:
       os.system("clear||cls")
@@ -35,7 +33,7 @@ try:
          break
       if title > 2:
          import madlib
-
+         break
 except: 
    import madlib
    os.system("clear||cls")
