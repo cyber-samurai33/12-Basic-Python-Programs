@@ -2,9 +2,6 @@
 import sys
 import os
 import time
-# Create a while loop to force user to select or go back to title.
-# Getting a traceback error when hitting enter. 
-
 
 # Welcome to Mad Lib! Banner
 
