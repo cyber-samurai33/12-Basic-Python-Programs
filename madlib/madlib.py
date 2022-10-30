@@ -33,6 +33,8 @@ try:
          str(input("Press Enter (Esc)"))
          os.system('clear||cls')
          break
+      if title > 2:
+         import madlib
 
 except: 
    import madlib
