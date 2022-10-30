@@ -8,7 +8,7 @@ import time
 
 # Welcome to Mad Lib! Banner
 
-print('Welcome to Mad Libs! Select your story!')
+print('\n\nWelcome to Mad Libs! Select your story!')
 print('')
 print('[1] Sam')
 print('[2] High School')
@@ -16,15 +16,18 @@ print('[2] High School')
 # Mad lib Title Selection
 
 try:
-
+   print('')
+   print('Enter to [exit]')
+   print('')
    title = int(input(' > '))
-
    while True:
+      os.system("clear||cls")
       if title == 1:
          import madscript_sam
          str(input("Press Enter (Esc)"))
          os.system('clear||cls')
-         break          
+         break   
+      os.system("clear||cls")     
       if title == 2:
          import madscript_highschool
          str(input("Press Enter (Esc)"))
@@ -34,7 +37,7 @@ try:
 except: 
    os.system("clear||cls")
    
-   
+
       
          
       

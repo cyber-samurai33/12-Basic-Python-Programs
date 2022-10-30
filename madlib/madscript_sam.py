@@ -14,5 +14,5 @@ print(f'''\tThis is a story about a monkey name Sam. Sam was curious about many 
 \tsuch as {noun} Sam would {verb} all day and night when there were loud noise's.\n
 \tSam would often think of {adjective} when he was sitting on a branch.\n 
 \tSometimes Sam would have to {adverb} a tree to avoid getting eaten by other predators.\n
-\tSam was mostly interested in bananas and throwing poop, this was a daily activity for Sam.\n 
-''' )
+\tSam was mostly interested in bananas and throwing poop, this was a daily activity for Sam.
+\n''' )
