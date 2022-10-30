@@ -1,8 +1,8 @@
 import os
 
+print("Enter variables")
+print('')    
 
-
-    
 noun = str(input("Noun: "))
 verb = str(input("Verb: "))
 adjective = str(input("Adjective: "))
