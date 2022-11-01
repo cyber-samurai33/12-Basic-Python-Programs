@@ -13,7 +13,7 @@ print('[2] High School')
 # Mad lib Title Selection
 
 try:
- 
+
    title = int(input(' > '))
    while True:
       os.system("clear||cls")
@@ -21,40 +21,16 @@ try:
          import madscript_sam
          str(input("Press Enter (Esc)"))
          os.system('clear||cls')
-         break   
-      os.system("clear||cls")     
-      if title == 2:
-         import madscript_highschool
-         str(input("Press Enter (Esc)"))
-         os.system('clear||cls')
          break
-      if title > 2:
-         import madlib
-         break
-except: 
-    import madlib
-    os.system("clear||cls")
-   
+         os.system("clear||cls")
+      elif title == 2:
+        import madscript_highschool
+        str(input("Press Enter (Esc)"))
+        os.system('clear||cls')
+        break
+      elif title > 2:
+        import madlib
+        os.system("clear||cls")
 
-      
-         
-      
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
+except:
+    print("Error")
